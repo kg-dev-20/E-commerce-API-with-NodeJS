@@ -1,4 +1,4 @@
-# Alcohol E-Commerce API
+# E-Commerce API
 
 Express + Prisma + Neon PostgreSQL backend for an online alcohol retailer. Fully async/await throughout.
 

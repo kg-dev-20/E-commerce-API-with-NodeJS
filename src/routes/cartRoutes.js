@@ -4,8 +4,6 @@ import { authenticate } from '../middleware/auth.js';
 
 const router = express.Router();
 
-// Cart requires login (linked to a specific user), but not age verification —
-// browsing/holding items in a cart is fine; the age gate applies at checkout.
 router.use(authenticate);
 
 router.get('/', getCart);
